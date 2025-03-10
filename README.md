@@ -2,6 +2,9 @@
 
 I currently have a fairly good grasp of Javascript. I would like to learn Typescript.
 
+- [Lrnr](https://lrnr.lovelyvector.com/)
+- [Lrnr - Development]()
+
 - [x] Find Final Fantasy 7 Documents
   - [x] Battle Mechanics
   - [x] Enemy Mechanics
@@ -11,7 +14,12 @@ I currently have a fairly good grasp of Javascript. I would like to learn Typesc
   - Use Tailwinds
 - [ ] Deploy
   - [ ] Make git repo
-  - [ ] Make verical
+  - [ ] Make Vercel Project
+  - [ ] Make domain
+    - [ ] Make development sub domain
+    - [ ] Make `develop` branch
+    - [ ] Push Develop
+- [ ] Document Learning Typescipt
 
 ## Documents
 
