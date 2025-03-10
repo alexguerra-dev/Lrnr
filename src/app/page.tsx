@@ -1,22 +1,45 @@
+import Image from 'next/image'
+
 export default function Home() {
     return (
         <div className="p-4">
-            <h1 className="text-2xl font-bold mb-4">Hello, World!</h1>
-
-            <div className="mb-4">
-                <p>
-                    I am going to learn typescript. Got to think of a good
-                    project. A todo list is pretty classic.
-                </p>
-            </div>
-
             <div className="bg-white shadow-md rounded-lg p-6 mb-4">
-                <h2 className="text-xl font-semibold mb-2">Player Info</h2>
-                <p>Player: Alex</p>
-                <p>HP: 100</p>
-                <p>MP: 50</p>
-                <p>Weapon: Sword</p>
-                <p>Armor: Leather</p>
+                <h2 className="text-xl font-semibold mb-2">Heroes</h2>
+                <div className="flex space-x-4">
+                    <div className="bg-white shadow-md rounded-lg p-4 mb-4">
+                        <p className="font-bold">Alex</p>
+                        <Image
+                            src="/glider.png"
+                            alt="Alex"
+                            width={100}
+                            height={100}
+                        />
+                        <p>HP: 100</p>
+                        <p>MP: 50</p>
+                        <p>Weapon: Sword</p>
+                        <p>Armor: Leather</p>
+                    </div>
+                    <div className="bg-white shadow-md rounded-lg p-4 mb-4">
+                        <p className="font-bold">Jordan</p>
+                        <Image
+                            src="/ranger.png"
+                            alt="Jordan"
+                            width={100}
+                            height={100}
+                        ></Image>
+                        <p>HP: 100</p>
+                        <p>MP: 50</p>
+                        <p>Weapon: Sword</p>
+                        <p>Armor: Leather</p>
+                    </div>
+                    <div className="bg-white shadow-md rounded-lg p-4 mb-4">
+                        <p className="font-bold">Gabe</p>
+                        <p>HP: 100</p>
+                        <p>MP: 50</p>
+                        <p>Weapon: Sword</p>
+                        <p>Armor: Leather</p>
+                    </div>
+                </div>
             </div>
 
             <div className="bg-white shadow-md rounded-lg p-6 mb-4">
